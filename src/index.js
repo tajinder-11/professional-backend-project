@@ -16,7 +16,7 @@ connectDB()
     });
   })
   .catch((error) => {
-    console.log("Mongo DB connection error !!!", error);
+    console.log("Mongo DB connection error !!!!", error);
   });
 
 // const app = express()(async () => {
